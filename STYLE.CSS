@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding:10px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -7,8 +7,8 @@
 body{
     background-color: #fff;
     width: 100%;
-    padding: 0 10px 0 10px;
 }
+
 
 .reviews h2{
     font-weight: bold;
@@ -19,16 +19,17 @@ body{
     justify-content: space-around;
 }
 .content{
-    height: 200px;
+    height: 230px;
     width: 600px;
     background-color: #F0EEED;
     border: #fff 1px solid;
     border-radius: 7px;
     margin: 8px;
+    padding: 1px;
 }
 #detail{
     margin-top: 30px;
-    padding: 10px 10px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
     
@@ -54,9 +55,12 @@ transition: 3s ease;
 box-shadow: 0 0 0 rgba(0, 0, 0, rgba(0 0 0 0.3));
 cursor: pointer;
 }
-/*.pro img{
-    width: 100%;
-}*/
+ img{
+    object-fit: cover;
+    background-color: transparent;
+    object-position: center;
+    
+}
 .pro #img:hover{
     background-color: aliceblue;
 }
